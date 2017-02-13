@@ -10,7 +10,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-
+require('dotenv').config()
 
 mongoose.connect('mongodb://localhost/blogDB');
 // view engine setup
